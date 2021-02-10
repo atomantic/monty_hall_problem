@@ -6,6 +6,7 @@ The short story is this: you have 3 doors. Two doors have a goat behind it, one 
 
 In talking this over the last couple of days I found myself in a position of simultaneously believing that the probability math is correct and believing that there is something fundamentally wrong with how we model probability against reality--and specifically that this model of events and probabilities is correct:
 
+## Reality Model 1 - Math Does Not Abide
 ![Faulty but intuitive view](faulty.png)
 
 In the above, there are 3 possible distributions. When Monty reveals a goat, it collapses reality into 1 of 4 possibilities, which simplify into 50/50 odds--this is a sort of quantum entanglement view of reality--but does reality at the macro level behave as it does in the quantum world? 
@@ -24,6 +25,7 @@ I didn't want to take anyone's word for it, so I coded up a program to run the p
 
 After writing this repo and hammering away at a spreadsheet of possibilities and pouring over [The Wikipedia Page](https://en.wikipedia.org/wiki/Monty_Hall_problem) to try to figure out why the above model of reality is faulty, I finally drew this view of reality, which rectifies the problem:
 
+## Reality Model 2 - The Math Abides
 ![Probability view](probability.png)
 
 In the above model, you can clearly see that there are 3 possible realities (just as there are in the first model). However, now perhaps it's clearer to see that switching wins 2/3 times. 

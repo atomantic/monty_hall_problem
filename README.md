@@ -8,9 +8,14 @@ In talking this over the last couple of days I found myself in a position of sim
 
 ![Faulty but intuitive view](faulty.png)
 
-In the above, there are 3 possible realities. When Monty reveals a goat, it collapses reality into 1 of 2 possibilities--this is a sort of quantum entanglement view of reality--but does reality at the macro level behave as it does in the quantum world? 
-- If we see that a goat is behind `Door 2`, then `Reality B` is no longer possible (`Door 2` cannot have been allocated a car in the initial random placement). 
+In the above, there are 3 possible distributions, which manifest as 3 potential starting realities. When Monty reveals a goat, it collapses reality into 1 of 4 possibilities, which simplify into 50/50 odds--this is a sort of quantum entanglement view of reality--but does reality at the macro level behave as it does in the quantum world? 
+- If we see that a goat is behind `Door 2`, then `Reality B` is no longer possible (`Door 2` cannot have been allocated a car in the initial random placement).
+    - If you were in distribution A, switching wins
+    - If you were in distribution C, switching loses
 - If we see that a goat is behind `Door 3`, then `Reality A` is no longer possible (`Door 3` cannot have been allocated a car in the initial random placement)
+    - If you were in distribution B, switching wins
+    - If you were in distribution C, switching loses
+It seems we have a 50/50 chance of winning whether we choose to stay with `Door 1`, or choose to switch to the other door.
 
 This mixed view of holding the above model in mind (and finding no flaw in the argument) while believing that `math` is smarter than I am resulted in a troubling certainty that something is either fundamentally wrong with the Universe or that my brain is broken--and that maybe this kind of puzzle is a key to understanding how our reality is not mapped the way we map the sciences.
 > Moreover, I now understand religion in a way I didn't before.

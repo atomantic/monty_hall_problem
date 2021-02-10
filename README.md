@@ -35,6 +35,10 @@ In the above model, you can clearly see that there are 3 possible realities (jus
 
 The flaw in Model 1 that isn't super obvious is that landing in Distribution C has a 1/3 chance of happening, while landing in A or B has a 2/3 chance of happening. Both A and B distributions favor switching.
 
+To further clarify, for the continued objections of my buddy who thinks this is all a trick of the math, the goat reveal was done from the set of `Door 2` + `Door 3`, not from `Door 1` -- so the other door holds 2x the value of the first chosen door that wasn't part of the goat reveal. If you don't know how the goat door choice was made, you don't know which door holds a 1/3 value and which has a 2/3 value, but knowing doesn't change the values of the doors (just your advantage).
+
+My buddy further argues that if you start with 3 doors, with one of them revealed as a goat, you have a 50/50 chance of picking the right door--however, this is only true if the distribution of the remaining goat and car are done equally random between the two remaining closed doors. If the distribution was made prior to the goat reveal and the goat reveal was made with the consideration of 2 of the 3 doors, then one of the doors has 2/3 of the car probability.
+
 # The Code
 
 This repo contains a simple bit of code to run the probability of winning with a switching vs staying strategy.

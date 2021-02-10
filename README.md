@@ -2,7 +2,7 @@
 
 [The Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) has plagued me for a decade. It's a problem I go back and read up on every few years and remember why it makes sense even though I can never manage to intuit why.
 
-The short story is this: you have 3 doors. Two doors have a goat behind it, one has a car behind it. You get to choose a door. After you choose a door, the host of the game reveals a goat behind one of the other two doors (he knows what's behind the doors and always only reveals a goat). You then have the option to change your mind and choose the remaining door. Counterintuitively, switching yields a 2/3 win where staying yields a 1/3 chance of getting the car.
+The short story is this: you have 3 doors. Two doors have a goat behind it, one has a car behind it. You get to choose a door. After you choose a door, the host of the game (Monty) reveals a goat behind one of the other two doors (he knows what's behind the doors and always only reveals a goat). You then have the option to change your mind and choose the remaining door. Counterintuitively, switching yields a 2/3 win where staying yields a 1/3 chance of getting the car.
 
 In talking this over the last couple of days I found myself in a position of simultaneously believing that the probability math is correct and believing that there is something fundamentally wrong with how we model probability against reality--and specifically that this model of events and probabilities is correct:
 
@@ -29,6 +29,8 @@ After writing this repo and hammering away at a spreadsheet of possibilities and
 ![Probability view](probability.png)
 
 In the above model, you can clearly see that there are 3 possible realities (just as there are in the first model). However, now perhaps it's clearer to see that switching wins 2/3 times. 
+
+The trick here might be that in the earlier model, we are starting with the notion of Monty revealing a door and then evaluating which reality distribution we fell into. In this model, we accept that we have already landed in one of the stable realities and if we are in `distribution A`, Monty `cannot` reveal a goat behind `Door 3` -- his only option is to expose the goat in `Door 2`. However, if we are in `distribution C`, Monty could open either `Door 2` or `Door 3`. So side with the math, accept that you are locked into a stable reality, and act accordingly.
 
 # The Code
 

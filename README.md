@@ -17,7 +17,7 @@ In the above, there are 3 possible distributions. When Monty reveals a goat, it 
     - If you were in distribution B, switching wins
     - If you were in distribution C, switching loses
 
-It seems we have a 50/50 chance of winning whether we choose to stay with `Door 1`, or choose to switch to the other door.
+It seems we have a 50/50 chance of winning whether we choose to stay with `Door 1`, or choose to switch to the other door. I couldn't see the flaw in this view of reality until I made this project and worked out the edges.
 
 > (see below in the explanation of model 2 for the flaw in this model if you can't see it already)
 
@@ -37,7 +37,7 @@ The flaw in Model 1 that isn't super obvious is that landing in Distribution C h
 
 To further clarify, for the continued objections of my buddy who thinks this is all a trick of the math, the goat reveal was done from the set of `Door 2` + `Door 3`, not from `Door 1` -- so the other door holds 2x the value of the first chosen door that wasn't part of the goat reveal. If you don't know how the goat door choice was made, you don't know which door holds a 1/3 value and which has a 2/3 value, but knowing doesn't change the values of the doors (just your advantage).
 
-My buddy further argues that if you start with 3 doors, with one of them revealed as a goat, you have a 50/50 chance of picking the right door--however, this is only true if the distribution of the remaining goat and car are done equally random between the two remaining closed doors. If the distribution was made prior to the goat reveal and the goat reveal was made with the consideration of 2 of the 3 doors, then one of the doors has 2/3 of the car probability.
+My buddy further argues that if you start with 3 doors, with one of them revealed as a goat, you have a 50/50 chance of picking the right door (because each door is 50% of the choice options)--however, this is only true if the distribution of the remaining goat and car are done equally random between the two remaining closed doors. If the distribution was made across all 3 doors prior to the goat reveal AND the goat reveal was made with the consideration of 2 of the 3 doors, then the door that was part of the consideration of the goat reveal has 2/3 of the car probability.
 
 # The Code
 

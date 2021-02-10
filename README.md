@@ -16,7 +16,10 @@ In the above, there are 3 possible distributions. When Monty reveals a goat, it 
 - If we see that a goat is behind `Door 3`, then `Distribution A` is no longer possible (`Door 3` cannot have been allocated a car in the initial random placement)
     - If you were in distribution B, switching wins
     - If you were in distribution C, switching loses
+
 It seems we have a 50/50 chance of winning whether we choose to stay with `Door 1`, or choose to switch to the other door.
+
+> (see below in the explanation of model 2 for the flaw in this model if you can't see it already)
 
 This mixed view of holding the above model in mind (and finding no flaw in the argument) while believing that `math` is smarter than I am resulted in a troubling certainty that something is either fundamentally wrong with the Universe or that my brain is broken--and that maybe this kind of puzzle is a key to understanding how our reality is not mapped the way we map the sciences.
 > Moreover, I now understand religion in a way I didn't before.
@@ -30,7 +33,7 @@ After writing this repo and hammering away at a spreadsheet of possibilities and
 
 In the above model, you can clearly see that there are 3 possible realities (just as there are in the first model). However, now perhaps it's clearer to see that switching wins 2/3 times. 
 
-The trick here might be that in the earlier model, we are starting with the notion of Monty revealing a door and then evaluating which reality distribution we fell into. In this model, we accept that we have already landed in one of the stable realities and if we are in `distribution A`, Monty `cannot` reveal a goat behind `Door 3` -- his only option is to expose the goat in `Door 2`. However, if we are in `distribution C`, Monty could open either `Door 2` or `Door 3`. So side with the math, accept that you are locked into a stable reality, and act accordingly.
+The flaw in Model 1 that isn't super obvious is that landing in Distribution C has a 1/3 chance of happening, while landing in A or B has a 2/3 chance of happening. Both A and B distributions favor switching.
 
 # The Code
 

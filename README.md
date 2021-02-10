@@ -21,7 +21,7 @@ It seems we have a 50/50 chance of winning whether we choose to stay with `Door 
 
 > (see below in the explanation of model 2 for the flaw in this model if you can't see it already)
 
-This mixed view of holding the above model in mind (and finding no flaw in the argument) while believing that `math` is smarter than I am resulted in a troubling certainty that something is either fundamentally wrong with the Universe or that my brain is broken--and that maybe this kind of puzzle is a key to understanding how our reality is not mapped the way we map the sciences.
+This mixed view of holding the above model in mind (and finding no flaw in the argument) while believing that `math` is smarter than I am resulted in a troubling certainty that something is either fundamentally wrong with the Universe or that my brain is broken--and that maybe this kind of puzzle is a key to understanding how our reality is not mapped the way we map the sciences. Or perhaps reveals ways in which our brains can be easily deceived and convinced that probabilities are different than they are (the psychology of casinos).
 > Moreover, I now understand religion in a way I didn't before.
 
 I didn't want to take anyone's word for it, so I coded up a program to run the probability experiment (just to double check the math). Spoiler: `the math checks out`.

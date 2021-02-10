@@ -2,7 +2,7 @@
 
 [The Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) has plagued me for a decade. It's a problem I go back and read up on every few years and remember why it makes sense even though I can never manage to intuit why.
 
-The short story is this: you have 3 doors. Two doors have a goat behind it, one has a car behind it. You get to choose a door. Once you have chosen a door. The host of the game reveals a goat behind one of the other two doors (he knows what's behind the doors and always only reveals a goat). You then have the option to change your mind and choose the other door. Counterintuitively, switching yields a 2/3 win where staying yields a 1/3 chance of getting the car.
+The short story is this: you have 3 doors. Two doors have a goat behind it, one has a car behind it. You get to choose a door. After you choose a door, the host of the game reveals a goat behind one of the other two doors (he knows what's behind the doors and always only reveals a goat). You then have the option to change your mind and choose the remaining door. Counterintuitively, switching yields a 2/3 win where staying yields a 1/3 chance of getting the car.
 
 In talking this over the last couple of days I found myself in a position of simultaneously believing that the probability math is correct and believing that there is something fundamentally wrong with how we model probability against reality--and specifically that this model of events and probabilities is correct:
 

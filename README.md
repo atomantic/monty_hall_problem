@@ -9,7 +9,7 @@ In talking this over the last couple of days I found myself in a position of sim
 ## Reality Model 1 - Math Does Not Abide
 ![Faulty but intuitive view](faulty.png)
 
-In the above, there are 3 possible distributions. When Monty reveals a goat, it collapses reality into 1 of 4 possibilities, which simplify into 50/50 odds--this is a sort of quantum entanglement view of reality--but does reality at the macro level behave as it does in the quantum world? 
+In the above, there are 3 possible distributions. When Monty reveals a goat, one can use deductive reasoning to see that it obliterates 1 of the 3 possible distributions, collapsing reality into only 2 possible arrangements (depending on whether the goat is revealed behind `Door 2` or `Door 3`). Now that reality has resolved to only 2 possible arrangements, it seems we have 50/50 odds--this is a sort of quantum entanglement view of reality--but does reality at the macro level behave as it does in the quantum world? 
 - If we see that a goat is behind `Door 2`, then `Distribution B` is no longer possible (`Door 2` cannot have been allocated a car in the initial random placement).
     - If you were in distribution A, switching wins
     - If you were in distribution C, switching loses
@@ -17,7 +17,7 @@ In the above, there are 3 possible distributions. When Monty reveals a goat, it 
     - If you were in distribution B, switching wins
     - If you were in distribution C, switching loses
 
-It seems we have a 50/50 chance of winning whether we choose to stay with `Door 1`, or choose to switch to the other door. I couldn't see the flaw in this view of reality until I made this project and worked out the edges.
+It seems we have a 50/50 chance of winning whether we choose to stay with `Door 1`, or choose to switch to the other door. I couldn't see the flaw in this view of reality until I made this project and worked out the edges. But maybe you can now see it.
 
 > (see below in the explanation of model 2 for the flaw in this model if you can't see it already)
 
